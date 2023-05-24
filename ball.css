@@ -83,3 +83,125 @@ button:hover{
     margin-left: 8rem;
     padding-bottom: 1rem;
 }
+.ball{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: radial-gradient(white, green, purple);
+
+}
+.ball2{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: radial-gradient(white, blue, purple);
+
+}
+.ball3{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: radial-gradient(white, yellow, purple);
+
+}
+.ball4{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: radial-gradient(white, red, purple);
+
+}
+.bounce{
+    animation: jump 5s linear 0s infinite alternate;
+}
+.bounceA{
+    animation: jumpA 1.7s ease-in 0s infinite alternate;
+}
+@keyframes jump {
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(calc(100vw - 5vmin));
+    }
+}
+@keyframes jumpA {
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(calc(100vh - 5vmin));
+    }
+}
+.bounce2{
+    animation: jump2 3s linear 0s infinite alternate;
+}
+.bounceA2{
+    animation: jumpA2 0.8s ease-in 0s infinite alternate;
+}
+@keyframes jump2 {
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(calc(100vw - 5vmin));
+    }
+}
+@keyframes jumpA2 {
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(calc(100vh - 5vmin));
+    }
+}
+
+
+.bounce3{
+    animation: jump3 4s linear 0s infinite alternate;
+}
+.bounceA3{
+    animation: jumpA3 1.4s ease-in 0s infinite alternate;
+}
+@keyframes jump3 {
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(calc(100vw - 5vmin));
+    }
+}
+@keyframes jumpA3 {
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(calc(100vh - 5vmin));
+    }
+}
+.bounce4{
+    animation: jump4 1.9s linear 0s infinite alternate;
+}
+.bounceA4{
+    animation: jumpA4 0.6s ease-in 0s infinite alternate;
+}
+@keyframes jump4 {
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(calc(100vw - 5vmin));
+    }
+}
+@keyframes jumpA4 {
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(calc(100vh - 5vmin));
+    }
+}
