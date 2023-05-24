@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600;700&family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,800;1,300;1,700;1,800&display=swap');
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(185, 246, 225);
+    vertical-align: middle;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.container{
+    width: 60vw;
+    height: 100vh;
+    background-color: aquamarine;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+.box{
+    width: 70%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    background-color: rgb(69, 232, 178);
+    box-shadow: 0px -0px 20px rgb(0, 174, 255);
+}
+.form-area{
+    width: 25vw;
+    min-width: 30%;
+    height: 30vh;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px solid rgb(12, 12, 11);
+    vertical-align: middle;
+    background-color: rgb(25, 228, 160);
+}
+form{
+    margin: auto;
+    background-color: rgb(31, 205, 147);
+    font-size: 1.2rem;
+}
+.form-area{
+    outline: 3px solid rgb(0, 208, 255);
+    outline-offset: 3px;
+}
+.email, .password{
+    margin-top: 0.5rem;
+    padding-top: 1rem;
+    margin-left: 2rem;
+}
+#email, #password{
+    width: 92%;
+    height: 30px;
+    font-size: 1.2rem;
+}
+.login-btn{
+    margin: auto;
+    align-items: center;
+    margin-left: 8rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+button{
+    height: 40px;
+    width: 60%;
+    margin: auto;
+    font-size: 1.3rem;
+    background-color: rgb(237, 211, 176);
+    border: none;
+    border-radius: 3px;
+}
+button:hover{
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+}
+.forget{
+    margin: 2rem;
+    margin-left: 8rem;
+    padding-bottom: 1rem;
+}
